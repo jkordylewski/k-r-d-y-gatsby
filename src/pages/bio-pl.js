@@ -3,11 +3,12 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import Header from '../components/header';
+import Kordynet from '../components/kordynet';
 import worldMap from '../images/worldmap_122015.gif';
 import SEO from '../components/seo';
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout name="bio">
     <SEO title="Życiorys" />
 
     <div id="copy">
@@ -62,9 +63,14 @@ const IndexPage = ({ data }) => (
         zakresie mikroskopii opracowujących ekspertyzy forensyczne.
       </p>
 
-      <img src={worldMap} alt="Map of countries visited" />
+      <img
+        src={worldMap}
+        style={{ margin: 0 }}
+        alt="Map of countries visited"
+      />
       <small>originally created with world66.com</small>
       <br />
+      <Kordynet />
     </div>
   </Layout>
 );

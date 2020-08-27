@@ -6,9 +6,10 @@ import worldMap from '../images/worldmap_122015.gif';
 import SEO from '../components/seo';
 
 import Header from '../components/header';
+import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout name="bio">
     <SEO title="Biography" />
 
     <div id="copy">
@@ -81,9 +82,14 @@ const IndexPage = ({ data }) => (
         Language Esperanto. He has visited more than 40 countries worldwide.
       </p>
 
-      <img src={worldMap} alt="Map of countries visited" />
+      <img
+        src={worldMap}
+        style={{ margin: 0 }}
+        alt="Map of countries visited"
+      />
       <small>originally created with world66.com</small>
       <br />
+      <Kordynet />
     </div>
   </Layout>
 );

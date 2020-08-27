@@ -7,14 +7,10 @@ import Img from 'gatsby-image';
 import SEO from '../components/seo';
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout name="home">
     <SEO title="Home" />
 
     <div id="copy">
-      <div id="kordynet">
-        <h3>www.kordynet.com</h3>
-      </div>
-
       <div id="card">
         <h1>Les KORDYLEWSKI Ph.D.</h1>
         <h2>Forensic Scientist</h2>
@@ -36,7 +32,8 @@ const IndexPage = ({ data }) => (
         <br />
         ISBN-13: 9788323309581
         <br />
-        <a href="book.html">more</a> | <a href="book.html">wiecej</a>
+        <a href="book.html">more about the book</a> |{' '}
+        <a href="book.html">wiecej</a>
         <br />
       </section>
 

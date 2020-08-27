@@ -3,11 +3,8 @@ body {
   background-color: #637830;
 }
 
-a {
-}
-
 #kordynet {
-  text-align: right;
+  text-align: center;
   margin-right: 10px;
   padding-top: 5px;
 }
@@ -73,12 +70,16 @@ h3 {
 }
 
 #copy {
-  width: 560px;
+  width: 700px;
   margin-top: 20px;
   margin-left: 260px;
   background-color: #e3e3bc;
-  padding: 0px 15px 25px 25px;
+  padding: 35px 35px 25px 35px;
   border: 1px solid #c3c3c3;
+}
+
+section {
+  margin-bottom: 32px;
 }
 
 #forensyka #copy {
@@ -103,31 +104,18 @@ h3 {
 
 #footer {
   clear: both;
-  width: 560px;
+  width: 700px;
   margin-left: 260px;
   font-size: 70%;
-  font-family: "Courier New", Courier, mono;
+  font-family: Courier, mono;
   height: 20px;
   margin-top: 15px;
   margin-bottom: 20px;
-  padding: 15px 0px 0px 25px;
+  text-align: center;
 }
 
 #forensyka #footer {
   margin-left: 265px;
-}
-
-#footerCopy {
-  text-align: center;
-}
-
-#footerCopy a {
-  text-decoration: none;
-  color: #000000;
-}
-
-#footerCopy a:hover {
-  text-decoration: underline;
 }
 
 #nav {
@@ -234,10 +222,15 @@ html > body #nav li a {
 
 #card {
   border: 1px solid #ccc;
-  margin: 20px;
-  text-align: center;
+  margin: 0 0 40px;
   padding: 20px;
+  text-align: center;
   background-color: #fcfcfc;
+}
+
+#card h1,
+#card h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .copyright {
@@ -257,8 +250,8 @@ html > body #nav li a {
 
 .hp-image {
   position: absolute;
-  top: 225px;
-  left: 640px;
+  top: 175px;
+  left: 700px;
 }
 
 .pl-link {

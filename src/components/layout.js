@@ -14,7 +14,7 @@ import Menu from './menu';
 import './layout.css';
 import './main.css';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, name }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,32 +26,24 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
+    <div id={name}>
       <Menu />
-      <div
-      // style={{
-      //   margin: `0 auto`,
-      //   maxWidth: 960,
-      //   padding: `0 1.0875rem 1.45rem`,
-      // }}
-      >
+      <div>
         <main>{children}</main>
         <footer>
           <div id="footer">
-            <div id="footerCopy">
-              kordynet.com &copy; 2007-
-              {new Date().getFullYear()}{' '}
-              <a href="http://www.jkordylewski.com">j kordylewski design</a>
-            </div>
+            kordynet.com &copy; 2007-
+            {new Date().getFullYear()}{' '}
           </div>
         </footer>
       </div>
-    </>
+    </div>
   );
 };
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  class: PropTypes.node,
 };
 
 export default Layout;
