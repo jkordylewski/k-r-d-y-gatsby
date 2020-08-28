@@ -32,8 +32,8 @@ const IndexPage = ({ data }) => (
         <br />
         ISBN-13: 9788323309581
         <br />
-        <a href="book.html">more about the book</a> |{' '}
-        <a href="book.html">wiecej</a>
+        <Link to="/book">more about the book</Link> |{' '}
+        <Link to="/book">wiecej</Link>
         <br />
       </section>
 

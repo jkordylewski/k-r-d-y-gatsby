@@ -12,10 +12,10 @@ const Menu = () => (
         <Link to="/bio">Bio</Link>
       </li>
       <li class="pubs">
-        <a href="publications.html">
+        <Link to="/publications">
           Selected
           <br /> Publications
-        </a>
+        </Link>
       </li>
       <li class="book">
         <a href="book.html">Book</a>
