@@ -136,7 +136,7 @@ const IndexPage = ({ data }) => (
         Journal of Histochemistry and Cytochemistry, 43 (5), 481-488, 1995.
         <br />
         <a
-          href="docs/publications/J%20Histochem%20Cytochem-1995-Kordylewski-481-8.pdf"
+          href="/pdfs/publications/J%20Histochem%20Cytochem-1995-Kordylewski-481-8.pdf"
           target="_blank"
           rel="noreferrer"
         >
@@ -144,7 +144,7 @@ const IndexPage = ({ data }) => (
         </a>
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <a
-          href="http://www.jhc.org/cgi/reprint/43/5/481?maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&author1=kordylewski&searchid=1&FIRSTINDEX=0&sortspec=relevance&resourcetype=HWCIT"
+          href="https://pubmed.ncbi.nlm.nih.gov/7730586/"
           target="_blank"
           rel="noreferrer"
         >
@@ -161,12 +161,12 @@ const IndexPage = ({ data }) => (
         <br />
         Journal of Microscopy, 173 (3), 173-81, 1994.
         <br />
-        <a href="docs/atomicforce.pdf" target="_blank" rel="noreferrer">
+        <a href="/pdfs/atomicforce.pdf" target="_blank" rel="noreferrer">
           PDF
         </a>
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2818.1994.tb03440.x"
           target="_blank"
           rel="noreferrer"
         >
@@ -184,7 +184,13 @@ const IndexPage = ({ data }) => (
         <br />
         Circulation Research, 73 (1), 135-146, 1993.
         <br />
-        <a href="docs/publications/caveole_in_situ.pdf">PDF</a>
+        <a
+          href="/pdfs/publications/caveole_in_situ.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          PDF
+        </a>
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <a
           href="http://circres.ahajournals.org/cgi/content/abstract/73/1/135"
@@ -203,10 +209,16 @@ const IndexPage = ({ data }) => (
         Toyofuku T, Doyle DD, Zak R, Kordylewski L, <br />
         Developmental Dynamics, 196 (2), 103-113, 1993.
         <br />
-        <a href="docs/publications/Expression_of_Phospholamban_mRNA.pdf">PDF</a>
+        <a
+          href="/pdfs/publications/Expression_of_Phospholamban_mRNA.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          PDF
+        </a>
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <a
-          href="http://www3.interscience.wiley.com/cgi-bin/abstract/109891483/"
+          href="https://anatomypubs.onlinelibrary.wiley.com/doi/abs/10.1002/aja.1001960204"
           target="_blank"
           rel="noreferrer"
         >
@@ -221,7 +233,7 @@ const IndexPage = ({ data }) => (
         Journal of Muscle Research and Cell Motility, 10 (4), 290-296, 1989.
         <br />
         <a
-          href="http://www.springerlink.com/content/x111458v51621144/"
+          href="https://pubmed.ncbi.nlm.nih.gov/2527868/"
           target="_blank"
           rel="noreferrer"
         >
@@ -239,7 +251,7 @@ const IndexPage = ({ data }) => (
         Tissue and Cell, 18 (5), 793-801, 1986.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://www.sciencedirect.com/science/article/abs/pii/0040816686900789"
           target="_blank"
           rel="noreferrer"
         >
@@ -258,7 +270,7 @@ const IndexPage = ({ data }) => (
         790-813, 1986.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/3577333/"
           target="_blank"
           rel="noreferrer"
         >
@@ -276,7 +288,7 @@ const IndexPage = ({ data }) => (
         Developmental Biology, 112 (2), 485-488, 1985.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://www.sciencedirect.com/science/article/abs/pii/001216068590421X"
           target="_blank"
           rel="noreferrer"
         >
@@ -294,7 +306,7 @@ const IndexPage = ({ data }) => (
         American Journal of Physiology, 248 (3, Pt. 2), H297-H304, 1985.
         <br />
         <a
-          href="http://ajpheart.physiology.org/cgi/content/abstract/248/3/H297"
+          href="https://journals.physiology.org/doi/abs/10.1152/ajpheart.1985.248.3.h297"
           target="_blank"
           rel="noreferrer"
         >
@@ -308,7 +320,7 @@ const IndexPage = ({ data }) => (
         <br />
         Biophysical Journal, 47, 2, 2, 506a, 1985
         <br />
-        <a href="docs/BiophysJabstract.pdf" target="_blank" rel="noreferrer">
+        <a href="/pdfs/BiophysJabstract.pdf" target="_blank" rel="noreferrer">
           PDF
         </a>
         <br />
@@ -320,12 +332,12 @@ const IndexPage = ({ data }) => (
         Experientia [Cellular and Molecular Life Sciences (CMLS)], 40 (3),
         277-279, 1984.
         <br />
-        <a href="docs/eggpigment.pdf" target="_blank" rel="noreferrer">
+        <a href="/pdfs/eggpigment.pdf" target="_blank" rel="noreferrer">
           PDF
         </a>
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <a
-          href="http://www.springerlink.com/content/x14pup7p852gr002/"
+          href="https://link.springer.com/article/10.1007/BF01947581"
           target="_blank"
           rel="noreferrer"
         >
@@ -361,7 +373,7 @@ const IndexPage = ({ data }) => (
         Journal of Experimental Zoology, 227 (1), 93-96, 1983.
         <br />
         <a
-          href="http://www3.interscience.wiley.com/cgi-bin/abstract/110481221/ABSTRACT"
+          href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jez.1402270113"
           target="_blank"
           rel="noreferrer"
         >
@@ -389,16 +401,16 @@ const IndexPage = ({ data }) => (
         <br />
         <b>
           Light and electron microscopic observations of the development of
-          intestinal musculature in Xenopus
+          intestinal musculature in Xenopus.
         </b>
-        ,<br />
+        <br />
         Kordylewski, L.,
         <br />
         Zeitschrift fur Mikroskopische Anatomische Forschung (Jena), 97
         (4):719-734, 1983.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/6649786/"
           target="_blank"
           rel="noreferrer"
         >
@@ -417,7 +429,7 @@ const IndexPage = ({ data }) => (
         (6):1038-1050, 1979.
         <br />
         <a
-          href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&uid=317619&cmd=showdetailview&indexed=google"
+          href="https://pubmed.ncbi.nlm.nih.gov/317619/"
           target="_blank"
           rel="noreferrer"
         >
@@ -433,7 +445,7 @@ const IndexPage = ({ data }) => (
         225-243, 1979.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/532262/"
           target="_blank"
           rel="noreferrer"
         >
@@ -452,7 +464,7 @@ const IndexPage = ({ data }) => (
         1978.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://dev.biologists.org/content/45/1/215"
           target="_blank"
           rel="noreferrer"
         >
@@ -470,7 +482,7 @@ const IndexPage = ({ data }) => (
         Acta Anatomica (Basel), 87 (4), 597-614, 1974.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/4829042/"
           target="_blank"
           rel="noreferrer"
         >
@@ -489,7 +501,7 @@ const IndexPage = ({ data }) => (
         937-47, 1974.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/4460440/"
           target="_blank"
           rel="noreferrer"
         >
@@ -504,7 +516,7 @@ const IndexPage = ({ data }) => (
         Folia Histochemica Cytochemica (Krakow), 11 (3), 333-334, 1973.
         <br />
         <a
-          href="https://pubmed.ncbi.nlm.nih.gov/?term=Kordylewski+L&cauthor_id=4778393"
+          href="https://pubmed.ncbi.nlm.nih.gov/4778393/"
           target="_blank"
           rel="noreferrer"
         >
