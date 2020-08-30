@@ -10,13 +10,13 @@ import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
-  <Layout name="book">
-    <SEO title="Book" />
+  <Layout name="forensics">
+    <SEO title="Forensics" />
 
     <div id="copy">
       <Header />
       <h2>Book</h2>
-      <h3>Main Info:</h3>
+      <h3>Forensics</h3>
       <div>
         <div className="book-cover">
           <img

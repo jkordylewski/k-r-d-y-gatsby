@@ -19,6 +19,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
+      <h2>Selected publications:</h2>
       <h4>Book:</h4>
       <div class="pubsCopy">
         <b>Problemy Bioetyki (Problems of Bioethics)</b>

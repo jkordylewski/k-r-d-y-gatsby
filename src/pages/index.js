@@ -2,8 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
-import Img from 'gatsby-image';
+import author from '../images/main.png';
 import SEO from '../components/seo';
 
 const IndexPage = ({ data }) => (
@@ -39,7 +38,7 @@ const IndexPage = ({ data }) => (
 
       <section>
         <h3>In the News:</h3>
-        <a href="docs/krakow_10_2015.pdf" target="_blank">
+        <a href="/pdfs/krakow_10_2015.pdf" target="_blank" rel="noreferrer">
           Krakow &#8470;10, "Książka, o moim Ojcu" (in Polish)
         </a>
       </section>
@@ -53,9 +52,9 @@ const IndexPage = ({ data }) => (
 
       <section>
         <h3>Sputnik Anniversary:</h3>
-        <a href="sputnik.html">
+        <Link to="/sputnik">
           Read more about me and the Sputnik Anniversary
-        </a>
+        </Link>
       </section>
 
       <section>
@@ -64,26 +63,10 @@ const IndexPage = ({ data }) => (
       </section>
 
       <div className="hp-image">
-        <Img
-          className="headshot"
-          fixed={data.file.childImageSharp.fixed}
-          alt="Les Kordylewski"
-        />
+        <img className="headshot" src={author} alt="Les Kordylewski" />
       </div>
     </div>
   </Layout>
 );
-
-export const query = graphql`
-  query {
-    file(relativePath: { eq: "main.png" }) {
-      childImageSharp {
-        fixed(width: 368, height: 459) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`;
 
 export default IndexPage;

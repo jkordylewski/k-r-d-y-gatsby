@@ -21,7 +21,7 @@ const Menu = () => (
         <Link to="/book">Book</Link>
       </li>
       <li class="forensics">
-        <a href="forensics.html">Forensics</a>
+        <Link to="/forensics">Forensics</Link>
       </li>
       <li class="esperanto">
         <a href="esperanto.html">Esperanto</a>
