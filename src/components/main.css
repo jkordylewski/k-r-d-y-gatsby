@@ -258,3 +258,18 @@ html > body #nav li a {
   float: right;
   margin-right: 10px;
 }
+
+.book-wrapper {
+  width: 250px;
+  float: left;
+  margin-left: 10px;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+.book-cover {
+  width: 196px;
+  float: left;
+}

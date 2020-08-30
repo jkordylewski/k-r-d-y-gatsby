@@ -18,7 +18,7 @@ const Menu = () => (
         </Link>
       </li>
       <li class="book">
-        <a href="book.html">Book</a>
+        <Link to="/book">Book</Link>
       </li>
       <li class="forensics">
         <a href="forensics.html">Forensics</a>
