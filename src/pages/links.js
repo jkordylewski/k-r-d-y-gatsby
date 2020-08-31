@@ -2,16 +2,14 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import author from '../images/main2.jpg';
-import bookcover from '../images/bookcover_200.jpg';
 import SEO from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
-  <Layout name="forensics">
-    <SEO title="Forensics" />
+  <Layout name="links">
+    <SEO title="Useful Links" />
 
     <div id="copy">
       <Header />

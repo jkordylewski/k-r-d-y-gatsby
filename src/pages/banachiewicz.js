@@ -10,8 +10,8 @@ import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
-  <Layout name="forensics">
-    <SEO title="Forensics" />
+  <Layout name="bana">
+    <SEO title="Banachiewicz" />
 
     <div id="copy">
       <Header />
