@@ -7,6 +7,7 @@ module.exports = {
     author: `kordynet`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-htaccess`,
       options: {
