@@ -1,4 +1,4 @@
-const path = require(`path`)
+const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
@@ -7,6 +7,17 @@ module.exports = {
     author: `kordynet`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-htaccess`,
+      options: {
+        RewriteBase: '/',
+        https: true,
+        www: true,
+        SymLinksIfOwnerMatch: true,
+        host: 'www.kordynet.com',
+        redirect: ['RewriteRule ^(.*).html$ /$1 [R=301,L,NE]'],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -34,4 +45,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
