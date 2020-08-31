@@ -13,6 +13,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
+      <h2>Forensic Scientist</h2>
       <div className="pl-link">
         <Link to="/bio">in English</Link>
       </div>
