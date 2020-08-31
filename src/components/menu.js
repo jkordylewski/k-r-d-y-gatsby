@@ -24,16 +24,16 @@ const Menu = () => (
         <Link to="/forensics">Forensics</Link>
       </li>
       <li class="esperanto">
-        <a href="esperanto.html">Esperanto</a>
+        <Link to="/esperanto">Esperanto</Link>
       </li>
       <li class="sputnik">
-        <a href="sputnik.html">Sputnik</a>
+        <Link to="/sputnik">Sputnik</Link>
       </li>
       <li class="bana">
-        <a href="banachiewicz.html">Banachiewicz</a>
+        <Link to="/banachiewicz">Banachiewicz</Link>
       </li>
       <li class="links">
-        <a href="links.html">Links</a>
+        <Link to="/links">Links</Link>
       </li>
     </ul>
   </div>
