@@ -11,11 +11,11 @@ import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="forensyka">
-    <SEO title="Forensics" />
+    <SEO title="Forensyka" />
 
     <div id="copy">
       <Header />
-
+      <h2>Forensyka</h2>
       <div className="article">
         <div className="copyright">
           Previously Unpublished - Copyright &copy; October, 2007 Les
