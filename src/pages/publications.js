@@ -15,7 +15,7 @@ import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="pubs">
-    <SEO title="Biography" />
+    <SEO title="Publications" />
 
     <div id="copy">
       <Header />
