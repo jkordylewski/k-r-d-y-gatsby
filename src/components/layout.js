@@ -30,7 +30,7 @@ const Layout = ({ children, name }) => {
       <Menu />
       <script
         type="text/javascript"
-        src="http://jj.revolvermaps.com/2/1.js?i=939kpp0usf0&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000"
+        src="https://jj.revolvermaps.com/2/1.js?i=939kpp0usf0&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000"
         async="async"
       />
       <div>
