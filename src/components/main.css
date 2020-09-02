@@ -315,4 +315,9 @@ html > body #nav li a {
   #forensyka .br {
     display: block;
   }
+
+  #forensyka #footer {
+    width: 100%;
+    margin-left: 0;
+  }
 }
