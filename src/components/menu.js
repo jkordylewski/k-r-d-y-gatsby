@@ -1,38 +1,37 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 const Menu = () => (
   <div id="nav">
     <ul>
-      <li class="home">
+      <li className="home">
         <Link to="/">Home</Link>
       </li>
-      <li class="bio">
+      <li className="bio">
         <Link to="/bio">Bio</Link>
       </li>
-      <li class="pubs">
+      <li className="pubs">
         <Link to="/publications">
           Selected
           <br /> Publications
         </Link>
       </li>
-      <li class="book">
+      <li className="book">
         <Link to="/book">Book</Link>
       </li>
-      <li class="forensics">
+      <li className="forensics">
         <Link to="/forensics">Forensics</Link>
       </li>
-      <li class="esperanto">
+      <li className="esperanto">
         <Link to="/esperanto">Esperanto</Link>
       </li>
-      <li class="sputnik">
+      <li className="sputnik">
         <Link to="/sputnik">Sputnik</Link>
       </li>
-      <li class="bana">
+      <li className="bana">
         <Link to="/banachiewicz">Banachiewicz</Link>
       </li>
-      <li class="links">
+      <li className="links">
         <Link to="/links">Links</Link>
       </li>
     </ul>
