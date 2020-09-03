@@ -28,11 +28,6 @@ const Layout = ({ children, name }) => {
   return (
     <div id={name}>
       <Menu />
-      <script
-        type="text/javascript"
-        src="//rf.revolvermaps.com/0/0/5.js?i=939kpp0usf0&amp;m=0&amp;c=ff0000&amp;cr1=ffffff"
-        async="async"
-      ></script>
       <div>
         <main>{children}</main>
         <footer>
