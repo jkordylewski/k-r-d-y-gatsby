@@ -45,7 +45,11 @@ const IndexPage = ({ data }) => (
 
       <section>
         <h3>New Photos:</h3>
-        <a href="http://www.panoramio.com/user/845783" target="_blank">
+        <a
+          href="http://www.panoramio.com/user/845783"
+          target="_blank"
+          rel="noreferrer"
+        >
           See my photographic contributions to Panoramio (Google Earth)
         </a>
       </section>

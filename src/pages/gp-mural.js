@@ -10,9 +10,9 @@ const IndexPage = ({ data }) => (
     <SEO title="Mural of Santo Toribio Romo in Chicago's Pilsen neighborhood" />
 
     <div id="copy" style={{ paddingTop: 10 + 'px' }}>
-      <Link to="/publications">&larr; Back</Link>
-      <br />
-      <br />
+      <Link className="button" to="/publications">
+        &laquo; Back
+      </Link>
       <img
         src={mural}
         style={{ margin: 0 }}

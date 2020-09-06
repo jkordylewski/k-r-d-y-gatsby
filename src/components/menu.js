@@ -35,6 +35,7 @@ const Menu = () => (
         <Link to="/links">Links</Link>
       </li>
     </ul>
+    <br />
     <script
       type="text/javascript"
       src="//rf.revolvermaps.com/0/0/1.js?i=939kpp0usf0&amp;s=220&amp;m=0&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000"

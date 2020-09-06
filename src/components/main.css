@@ -282,6 +282,16 @@ html > body #nav li a {
   display: none;
 }
 
+.button {
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.disclaimer {
+  font-size: 11px;
+}
+
 @media only screen and (max-width: 800px) {
   #forensyka #nav {
     width: 100%;

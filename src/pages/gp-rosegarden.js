@@ -10,9 +10,9 @@ const IndexPage = ({ data }) => (
     <SEO title="Grant Park Rose Garden" />
 
     <div id="copy" style={{ paddingTop: 10 + 'px' }}>
-      <Link to="/publications">&larr; Back</Link>
-      <br />
-      <br />
+      <Link className="button" to="/publications">
+        &laquo; Back
+      </Link>
       <img
         src={rosegarden}
         style={{ margin: 0 }}

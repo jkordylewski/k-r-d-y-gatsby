@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import author from '../images/main2.jpg';
-import bookcover from '../images/bookcover_200.jpg';
 import SEO from '../components/seo';
 
 import Header from '../components/header';
@@ -16,6 +14,9 @@ const IndexPage = ({ data }) => (
     <div id="copy">
       <Header />
       <h2>Forensyka</h2>
+      <Link className="button" to="/forensics">
+        &laquo; Back
+      </Link>
       <div className="article">
         <div className="copyright">
           Previously Unpublished - Copyright &copy; October, 2007 Les
@@ -735,7 +736,9 @@ const IndexPage = ({ data }) => (
           All Rights Reserved.
         </div>
       </div>
-
+      <Link className="button" to="/forensics">
+        &laquo; Back
+      </Link>
       <Kordynet />
     </div>
   </Layout>

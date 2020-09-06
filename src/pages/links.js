@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -13,7 +12,25 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Coming Soon</h2>
+      <h2>Links</h2>
+
+      <h3>Forensics Links:</h3>
+      <div class="linksCopy">
+        <a target="_blank" rel="noreferrer" href="http://www.smsi.org/">
+          State Microscopical Society of Illinois
+        </a>
+        <a target="_blank" rel="noreferrer" href="http://www.aafs.org/">
+          The American Academy of Forensic Sciences
+        </a>
+        <a target="_blank" rel="noreferrer" href="http://www.mafs.net/">
+          Midwestern Association of Forensic Scientists
+        </a>
+        <a target="_blank" rel="noreferrer" href="http://www.forensicdna.com/">
+          Forensic DNA
+        </a>
+        <br />
+      </div>
+      <p>more to come</p>
       <Kordynet />
     </div>
   </Layout>
