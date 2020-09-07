@@ -26,7 +26,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{
             __html: `                
               var sc_project=3075192; 
-              var sc_invisible=0; 
+              var sc_invisible=1; 
               var sc_security="6b56ac98";
               var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
