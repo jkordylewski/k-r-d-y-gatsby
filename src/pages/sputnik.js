@@ -31,10 +31,10 @@ const IndexPage = ({ data }) => (
         <a href="http://articles.chicagotribune.com/2007-10-05/news/0710040827_1_sputnik-space-exploration-soviet-premier-nikita-khrushchev">
           Chicago Tribune Article
         </a>
-        <a href="docs/sputnik GK.pdf">Gazeta Krakowska (in polish) PDF</a>
-        <a href="docs/MAG_22_280907_B.pdf">Dziennik Polski (page 1 of 2)</a>
-        <a href="docs/MAG_23_280907_B.pdf">Dziennik Polski (page 2 of 2)</a>
-        <a href="docs/Krakow-Sputnik.pdf">Krakow-Sputnik.pdf</a>
+        <a href="pdfs/sputnik GK.pdf">Gazeta Krakowska (in polish) PDF</a>
+        <a href="pdfs/MAG_22_280907_B.pdf">Dziennik Polski (page 1 of 2)</a>
+        <a href="pdfs/MAG_23_280907_B.pdf">Dziennik Polski (page 2 of 2)</a>
+        <a href="pdfs/Krakow-Sputnik.pdf">Krakow-Sputnik.pdf</a>
         <br />
         <br />
       </div>

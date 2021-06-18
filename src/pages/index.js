@@ -43,7 +43,7 @@ const IndexPage = ({ data }) => (
         </a>
       </section>
 
-      <section>
+      {/* <section>
         <h3>New Photos:</h3>
         <a
           href="http://www.panoramio.com/user/845783"
@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => (
         >
           See my photographic contributions to Panoramio (Google Earth)
         </a>
-      </section>
+      </section> */}
 
       <section>
         <h3>Sputnik Anniversary:</h3>

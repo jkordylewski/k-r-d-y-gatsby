@@ -73,6 +73,13 @@ const IndexPage = ({ data }) => (
         >
           BookFinder
         </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.amazon.com/Problemy-bioetyki-uczelniane-Uniwersytet-Jagiellon%CC%81ski/dp/8323309582"
+        >
+          Problemy Bioetyki
+        </a>
         {/* <a href="http://www.krakusy.us/archiwum/index.php?view=events&action=detail&id_e=30">http://www.krakusy.us</a>
      <a href="http://www.dziennikzwiazkowy.com/kir/1015.html">http://www.polishdailynews.com</a>
     <a href="http://www.bookfinder.com/author/leszek-kordylewski/">http://www.bookfinder.com/author/leszek-kordylewski/</a> */}

@@ -19,7 +19,15 @@ const IndexPage = ({ data }) => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="http://nakanapie.pl/book/211492/leszek-kordylewski-problemy-bioetyki.htm;jsessionid=F0DF75829CB01D0F449036DC4F76C8A4"
+          // href="http://nakanapie.pl/book/211492/leszek-kordylewski-problemy-bioetyki.htm;jsessionid=F0DF75829CB01D0F449036DC4F76C8A4"
+          href="https://www.amazon.com/Problemy-bioetyki-uczelniane-Uniwersytet-Jagiellon%CC%81ski/dp/8323309582"
+        >
+          Problemy Bioetyki
+        </a>
+        <a
+          href="https://www.bookdepository.com/Problemy-Bioetyki-Leszek-Kordylewski/9788323309581"
+          target="_blank"
+          rel="noreferrer"
         >
           Problemy Bioetyki
         </a>
@@ -48,16 +56,16 @@ const IndexPage = ({ data }) => (
         >
           Chicago Tribune Article
         </a>
-        <a target="_blank" rel="noreferrer" href="docs/sputnik GK.pdf">
+        <a target="_blank" rel="noreferrer" href="pdfs/sputnik GK.pdf">
           Gazeta Krakowska (in polish) PDF
         </a>
-        <a target="_blank" rel="noreferrer" href="docs/MAG_22_280907_B.pdf">
+        <a target="_blank" rel="noreferrer" href="pdfs/MAG_22_280907_B.pdf">
           Dziennik Polski (page 1 of 2)
         </a>
-        <a target="_blank" rel="noreferrer" href="docs/MAG_23_280907_B.pdf">
+        <a target="_blank" rel="noreferrer" href="pdfs/MAG_23_280907_B.pdf">
           Dziennik Polski (page 2 of 2)
         </a>
-        <a target="_blank" rel="noreferrer" href="docs/Krakow-Sputnik.pdf">
+        <a target="_blank" rel="noreferrer" href="pdfs/Krakow-Sputnik.pdf">
           Krakow-Sputnik.pdf
         </a>
       </div>
@@ -113,13 +121,6 @@ const IndexPage = ({ data }) => (
 
       <h3>Esperanto Links:</h3>
       <div className="linksCopy">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto.info/en/basic_information"
-        >
-          Esperanto Basics
-        </a>
         <a target="_blank" rel="noreferrer" href="http://www.esperanto.net/">
           Esperanto.net
         </a>
@@ -144,12 +145,19 @@ const IndexPage = ({ data }) => (
         >
           Pasporta Servo
         </a>
-        <a
+        {/*<a
           target="_blank"
           rel="noreferrer"
           href="http://world.std.com/obi/Esperanto/introductions/references.txt"
         >
           Esperanto References
+        </a>
+                <a
+          target="_blank"
+          rel="noreferrer"
+          href="http://www.esperanto.info/en/basic_information"
+        >
+          Esperanto Basics
         </a>
         <a
           target="_blank"
@@ -157,6 +165,9 @@ const IndexPage = ({ data }) => (
           href="http://www.esperanto.ca/fr/taxonomy/term/54"
         >
           Montreal Esperanto Society
+        </a>*/}
+        <a target="_blank" rel="noreferrer" href="http://www.esperanto.ca">
+          The Canadian Esperanto Association - La Kanada Esperanto-Asocio
         </a>
         <a
           target="_blank"
@@ -201,13 +212,34 @@ const IndexPage = ({ data }) => (
 
       <h3>Other Links:</h3>
       <div className="linksCopy">
+        <a href="/pdfs/krakow_10_2015.pdf" target="_blank" rel="noreferrer">
+          Krakow &#8470;10, "Książka, o moim Ojcu" (in Polish)
+        </a>
         <a target="_blank" rel="noreferrer" href="http://www.kordylewski.pl">
           kordylewski.pl
         </a>
-        <a target="_blank" rel="noreferrer" href="http://www.polishnews.com/">
-          polishnews.com
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.polishnews.com/2017-zostal-ogloszony-unesco-rokiem-zamenhofa"
+        >
+          polishnews.com - Zamenhof
         </a>
-        <a target="_blank" rel="noreferrer" href="http://www.krakusy.us/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.polishnews.com/gubernator-patt-quinn-uczci-rocznic-konstytucji-3-majowej"
+        >
+          polishnews.com - Dzień Konstytucji Polskiej
+        </a>
+        {/*<a target="_blank" rel="noreferrer" href="http://www.krakusy.us/">
+          Krakusy w Chicago
+        </a>*/}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/TowarzystwoPrzyjaciolKrakowaWChicago/"
+        >
           Krakusy w Chicago
         </a>
         <a target="_blank" rel="noreferrer" href="http://www.mleczko.pl">

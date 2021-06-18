@@ -24,13 +24,6 @@ const IndexPage = ({ data }) => (
 
       <h3>Links:</h3>
       <div className="linksCopy">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto.info/en/basic_information"
-        >
-          Esperanto Basics
-        </a>
         <a target="_blank" rel="noreferrer" href="http://www.esperanto.net/">
           Esperanto.net
         </a>
@@ -55,19 +48,9 @@ const IndexPage = ({ data }) => (
         >
           Pasporta Servo
         </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://world.std.com/obi/Esperanto/introductions/references.txt"
-        >
-          Esperanto References
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto.ca/fr/taxonomy/term/54"
-        >
-          Montreal Esperanto Society
+
+        <a target="_blank" rel="noreferrer" href="http://www.esperanto.ca">
+          The Canadian Esperanto Association - La Kanada Esperanto-Asocio
         </a>
 
         <a
