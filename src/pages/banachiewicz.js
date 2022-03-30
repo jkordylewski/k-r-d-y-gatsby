@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import banachiewicz from '../images/banachiewicz.jpg';
+import main from '../images/banachiewicz.jpg';
 import Seo from '../components/seo';
 
 import Header from '../components/header';
@@ -13,17 +13,12 @@ const IndexPage = ({ data }) => (
     <div id="copy">
       <Header />
       <h2>Tadeusz Banachiewicz</h2>
-      <img
-        src={banachiewicz}
-        alt="Banachiewicz"
-        width="206"
-        height="250"
-        border="0"
-      />
+      <img src={main} alt="Banachiewicz" width="206" height="250" border="0" />
       <p>
-        He was a Polish astronomer, mathematician and geodesist. First President
-        of the Polish Astronomical Society, and member of the Polish Academy of
-        Sciences. He was also the founder of the journal Acta Astronomica.
+        Tadeusz Banachiewicz was a Polish astronomer, mathematician and
+        geodesist. First President of the Polish Astronomical Society, and
+        member of the Polish Academy of Sciences. He was also the founder of the
+        journal Acta Astronomica.
       </p>
       <p>The lunar crater Banachiewicz is named after him.</p>
 
@@ -34,14 +29,14 @@ const IndexPage = ({ data }) => (
           rel="noreferrer"
           href="https://en.wikipedia.org/wiki/Tadeusz_Banachiewicz"
         >
-          Wikipedia EN
+          Banachiewicz Wikipedia EN
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://pl.wikipedia.org/wiki/Tadeusz_Banachiewicz"
         >
-          Wikipedia PL
+          Banachiewicz Wikipedia PL
         </a>
         <a
           target="_blank"
