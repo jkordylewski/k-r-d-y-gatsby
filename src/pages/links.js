@@ -5,6 +5,15 @@ import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
+import BioLinks from '../components/links/bio';
+import GapLinks from '../components/links/gap';
+import BookLinks from '../components/links/book';
+import EsperantoLinks from '../components/links/esperanto';
+import SputnikLinks from '../components/links/sputnik';
+import ForensykaLinks from '../components/links/forensyka';
+import KazimierzLinks from '../components/links/kordylewski';
+import BanachiewiczLinks from '../components/links/banachiewicz';
+import OtherLinks from '../components/links/other';
 
 const IndexPage = ({ data }) => (
   <Layout name="links">
@@ -12,241 +21,34 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Links</h2>
+      <h2>Interesting Links</h2>
 
-      <h3>Problemy Bioetyki Links:</h3>
-      <div className="linksCopy">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          // href="http://nakanapie.pl/book/211492/leszek-kordylewski-problemy-bioetyki.htm;jsessionid=F0DF75829CB01D0F449036DC4F76C8A4"
-          href="https://www.amazon.com/Problemy-bioetyki-uczelniane-Uniwersytet-Jagiellon%CC%81ski/dp/8323309582"
-        >
-          Problemy Bioetyki
-        </a>
-        <a
-          href="https://www.bookdepository.com/Problemy-Bioetyki-Leszek-Kordylewski/9788323309581"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Problemy Bioetyki
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://dziennikzwiazkowy.com/kultura-i-rozrywka/problemy-bioetyki/"
-        >
-          Dziennik Zwiazkowy
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.bookfinder.com/search/?author=&title=&lang=en&new_used=*&destination=us&currency=USD&binding=*&isbn=8323309582&keywords=&minprice=&maxprice=&min_year=&max_year=&mode=advanced&st=sr&ac=qr"
-        >
-          BookFinder
-        </a>
-      </div>
+      <h3>Profile:</h3>
+      <BioLinks />
 
-      <h3>Sputnik Anniversary Links:</h3>
-      <div className="linksCopy">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://articles.chicagotribune.com/2007-10-05/news/0710040827_1_sputnik-space-exploration-soviet-premier-nikita-khrushchev"
-        >
-          Chicago Tribune Article
-        </a>
-        <a target="_blank" rel="noreferrer" href="pdfs/sputnik GK.pdf">
-          Gazeta Krakowska (in polish) PDF
-        </a>
-        <a target="_blank" rel="noreferrer" href="pdfs/MAG_22_280907_B.pdf">
-          Dziennik Polski (page 1 of 2)
-        </a>
-        <a target="_blank" rel="noreferrer" href="pdfs/MAG_23_280907_B.pdf">
-          Dziennik Polski (page 2 of 2)
-        </a>
-        <a target="_blank" rel="noreferrer" href="pdfs/Krakow-Sputnik.pdf">
-          Krakow-Sputnik.pdf
-        </a>
-      </div>
+      <h3>Gap Junction:</h3>
+      <GapLinks />
 
-      <h3>Forensics Links:</h3>
-      <div className="linksCopy">
-        <a target="_blank" rel="noreferrer" href="http://www.smsi.org/">
-          State Microscopical Society of Illinois
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.aafs.org/">
-          The American Academy of Forensic Sciences
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.mafs.net/">
-          Midwestern Association of Forensic Scientists
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.forensicdna.com/">
-          Forensic DNA
-        </a>
-      </div>
+      <h3>Problemy Bioetyki:</h3>
+      <BookLinks />
 
-      <h3>Banachiewicz Links:</h3>
-      <div className="linksCopy">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://en.wikipedia.org/wiki/Tadeusz_Banachiewicz"
-        >
-          Wikipedia EN
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://pl.wikipedia.org/wiki/Tadeusz_Banachiewicz"
-        >
-          Wikipedia PL
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.pta.edu.pl/historia"
-        >
-          Polskie Towarzystwo Astronomiczne
-        </a>
-        {/*<a target="_blank" rel="noreferrer" href="http://www.pta.edu.pl/orion/art/Banachiewicz/Banachiewicz2.html">An article about the Famous Astronomer</a> */}
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://orion.pta.edu.pl/dlaczego-banachiewicz-na-skalce"
-        >
-          Dlaczego Banachiewicz na Skałce?
-        </a>
-      </div>
+      <h3>Esperanto:</h3>
+      <EsperantoLinks />
 
-      <h3>Esperanto Links:</h3>
-      <div className="linksCopy">
-        <a target="_blank" rel="noreferrer" href="http://www.esperanto.net/">
-          Esperanto.net
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.meetup.com/esperanto-chicago"
-        >
-          Chicago Meetup
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto-chicago.org/"
-        >
-          Esperanto Chicago
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://tejo.org/agado/pasporta-servo/"
-        >
-          Pasporta Servo
-        </a>
-        {/*<a
-          target="_blank"
-          rel="noreferrer"
-          href="http://world.std.com/obi/Esperanto/introductions/references.txt"
-        >
-          Esperanto References
-        </a>
-                <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto.info/en/basic_information"
-        >
-          Esperanto Basics
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto.ca/fr/taxonomy/term/54"
-        >
-          Montreal Esperanto Society
-        </a>*/}
-        <a target="_blank" rel="noreferrer" href="http://www.esperanto.ca">
-          The Canadian Esperanto Association - La Kanada Esperanto-Asocio
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www2.polskieradio.pl/eo/dokument.aspx?iid=35638"
-        >
-          Radio Interview
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://deon24.com/jerzy-dobrzynski-i-lech-kordylewski-chicagowscy-uczeni-zapraszaja-do-propagowania-jezyka-esperanto/"
-        >
-          Radio Interview 2
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://pola-retradio.org/2014/04/e_elsendo-el-la-18-04-2014/"
-        >
-          Radio Interview in Esperanto
-        </a>
+      <h3>Sputnik Anniversary:</h3>
+      <SputnikLinks />
 
-        <br />
-        <b>"Plane Speaking" - Reader Article</b>
-        <br />
-        <div className="or">
-          {' '}
-          <a href="/pdfs/PlaneSpeaking.pdf" target="_blank" rel="noreferrer">
-            PDF
-          </a>
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a
-            href="http://www.chicagoreader.com/chicago/plane-speaking/Content?oid=913091"
-            target="_blank"
-            rel="noreferrer"
-          >
-            on the web
-          </a>
-        </div>
-      </div>
+      <h3>Forensics:</h3>
+      <ForensykaLinks />
 
-      <h3>Other Links:</h3>
-      <div className="linksCopy">
-        <a href="/pdfs/krakow_10_2015.pdf" target="_blank" rel="noreferrer">
-          Krakow &#8470;10, "Książka, o moim Ojcu" (in Polish)
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.kordylewski.pl">
-          kordylewski.pl
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.polishnews.com/2017-zostal-ogloszony-unesco-rokiem-zamenhofa"
-        >
-          polishnews.com - Zamenhof
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.polishnews.com/gubernator-patt-quinn-uczci-rocznic-konstytucji-3-majowej"
-        >
-          polishnews.com - Dzień Konstytucji Polskiej
-        </a>
-        {/*<a target="_blank" rel="noreferrer" href="http://www.krakusy.us/">
-          Krakusy w Chicago
-        </a>*/}
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.facebook.com/TowarzystwoPrzyjaciolKrakowaWChicago/"
-        >
-          Krakusy w Chicago
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.mleczko.pl">
-          Mleczko
-        </a>
-        <br />
-      </div>
+      <h3>Kazimierz Kordylewski:</h3>
+      <KazimierzLinks />
+
+      <h3>Banachiewicz:</h3>
+      <BanachiewiczLinks />
+
+      <h3>Other:</h3>
+      <OtherLinks />
 
       <Kordynet />
     </div>
