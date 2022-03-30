@@ -6,6 +6,7 @@ import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
+import BookLinks from '../components/links/book';
 
 const IndexPage = ({ data }) => (
   <Layout name="book">
@@ -14,7 +15,7 @@ const IndexPage = ({ data }) => (
     <div id="copy">
       <Header />
       <h2>Book</h2>
-      <h3>Main Info:</h3>
+      <h3>Publication Info:</h3>
       <div>
         <div className="book-cover">
           <img
@@ -47,43 +48,11 @@ const IndexPage = ({ data }) => (
             http://www.mleczko.pl
           </a>
         </div>
-
         <div className="clearBoth">&nbsp;</div>
       </div>
-      <h3>Book Links:</h3>
-      <div class="linksCopy">
-        <a
-          href="https://www.bookdepository.com/Problemy-Bioetyki-Leszek-Kordylewski/9788323309581"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Problemy Bioetyki
-        </a>
-        <a
-          href="http://dziennikzwiazkowy.com/kultura-i-rozrywka/problemy-bioetyki/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Dziennik Zwiazkowy
-        </a>
-        <a
-          href="http://www.bookfinder.com/search/?author=&title=&lang=en&new_used=*&destination=us&currency=USD&binding=*&isbn=8323309582&keywords=&minprice=&maxprice=&min_year=&max_year=&mode=advanced&st=sr&ac=qr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          BookFinder
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.amazon.com/Problemy-bioetyki-uczelniane-Uniwersytet-Jagiellon%CC%81ski/dp/8323309582"
-        >
-          Problemy Bioetyki
-        </a>
-        {/* <a href="http://www.krakusy.us/archiwum/index.php?view=events&action=detail&id_e=30">http://www.krakusy.us</a>
-     <a href="http://www.dziennikzwiazkowy.com/kir/1015.html">http://www.polishdailynews.com</a>
-    <a href="http://www.bookfinder.com/author/leszek-kordylewski/">http://www.bookfinder.com/author/leszek-kordylewski/</a> */}
-      </div>
+      <h3>Additional Links:</h3>
+      <BookLinks />
+      <br />
       <h3>Book Event Info:</h3>
       Spotkanie z Dr Leszkiem Kordylewskim <br />
       2005-06-14 00:40:00

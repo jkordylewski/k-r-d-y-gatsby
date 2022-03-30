@@ -12,8 +12,6 @@ const IndexPage = ({ data }) => (
     <Seo title="Forensyka" />
 
     <div id="copy">
-      <Header />
-      <h2>Forensyka</h2>
       <Link className="button" to="/forensics">
         &laquo; Back
       </Link>
@@ -31,6 +29,7 @@ const IndexPage = ({ data }) => (
             <br />
           </b>
         </p>
+        <h2>Forensyka</h2>
         <p>
           Tragedia 9/11 zwr&#243;ci&#322;a uwag&#281; &#347;wiata na walk&#281;
           z terroryzmem i przest&#281;pczo&#347;ci&#261;. W mediach, a nawet w

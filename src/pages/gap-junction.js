@@ -121,7 +121,7 @@ const IndexPage = ({ data }) => (
         In the examination of GJs no one has ever used my original comparative
         method of matching Face E and P pages by superimposing{' '}
         <b>
-          <span className="ul">three-dimensional</span> (3D)
+          <span className="underline">three-dimensional</span> (3D)
         </b>{' '}
         images of the replicas in the complementary P and E areas of the cell
         membrane interior of the same GJ. Usually, only the comparison of "flat"

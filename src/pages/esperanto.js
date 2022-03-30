@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from '../components/layout';
-import flag from '../images/espeFlag.gif';
+import main from '../images/espeFlag.gif';
 import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
+import EsperantoLinks from '../components/links/esperanto';
 
 const IndexPage = ({ data }) => (
   <Layout name="esperanto">
@@ -13,6 +14,7 @@ const IndexPage = ({ data }) => (
     <div id="copy">
       <Header />
       <h2>Esperanto</h2>
+      <img src={main} alt="Esperanto Flag" width="206" />
 
       <p>
         <b>Esperanto</b> is a widely used constructed artificial language,
@@ -23,82 +25,7 @@ const IndexPage = ({ data }) => (
       </p>
 
       <h3>Links:</h3>
-      <div className="linksCopy">
-        <a target="_blank" rel="noreferrer" href="http://www.esperanto.net/">
-          Esperanto.net
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.meetup.com/esperanto-chicago"
-        >
-          Chicago Meetup
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www.esperanto-chicago.org/"
-        >
-          Esperanto Chicago
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://tejo.org/agado/pasporta-servo/"
-        >
-          Pasporta Servo
-        </a>
-
-        <a target="_blank" rel="noreferrer" href="http://www.esperanto.ca">
-          The Canadian Esperanto Association - La Kanada Esperanto-Asocio
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://www2.polskieradio.pl/eo/dokument.aspx?iid=35638"
-        >
-          Radio Interview
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://deon24.com/jerzy-dobrzynski-i-lech-kordylewski-chicagowscy-uczeni-zapraszaja-do-propagowania-jezyka-esperanto/"
-        >
-          Radio Interview 2
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="http://pola-retradio.org/2014/04/e_elsendo-el-la-18-04-2014/"
-        >
-          Radio Interview in Esperanto
-        </a>
-
-        {/* <a href="http://www.esperanto-montreal.org/en/node/365">esperanto-montreal.org</a>*/}
-        {/* <a href="http://ao.com.au/esperanto/correlatives.htm">correlatives</a> */}
-        {/* <a href="http://www.autodydaktyka.republika.pl/jezykiwschodu/mlaski1.htm">Wywiad / Interview</a> */}
-
-        <br />
-        <b>"Plane Speaking" - Reader Article</b>
-        <br />
-        <div className="or">
-          <a href="/pdfs/PlaneSpeaking.pdf" target="_blank" rel="noreferrer">
-            PDF
-          </a>
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a
-            href="http://www.chicagoreader.com/chicago/plane-speaking/Content?oid=913091"
-            target="_blank"
-            rel="noreferrer"
-          >
-            on the web
-          </a>
-        </div>
-
-        {/* https://securesite.chireader.com/cgi-bin/Archive/abridged2.bat?path=2003/030905/JONES */}
-        <br />
-      </div>
+      <EsperantoLinks />
 
       <h3>Saluton!</h3>
       <h4>Bulteno de la Esperanto-Societo de Chicago</h4>
@@ -138,9 +65,7 @@ const IndexPage = ({ data }) => (
         </a>
         <br />
       </div>
-      <div style={{ float: 'right' }}>
-        <img src={flag} alt="Esperanto Flag" />
-      </div>
+
       <div style={{ clear: 'both' }}></div>
       <Kordynet />
     </div>

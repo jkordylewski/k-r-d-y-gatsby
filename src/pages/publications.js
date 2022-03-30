@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
       <Header />
       <h2>Selected publications:</h2>
       <h4>Book:</h4>
-      <div class="pubsCopy">
+      <div className="pubsCopy">
         <b>Problemy Bioetyki (Problems of Bioethics)</b>
         <br />
         Kordylewski, L.,
@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => (
       </div>
 
       <h4>Cover micrograph:</h4>
-      <div class="pubsCopy">
+      <div className="pubsCopy">
         <b>Journal of Microscopy</b>,<br />
         Volume: 173, Pt 3, Year: 1994
         <br />
@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => (
         <br />
       </div>
       <h4>Miscellaneous micrographs:</h4>
-      <div class="pubsCopy">
+      <div className="pubsCopy">
         <b>Midwestern Association of Forensic Scientists Newsletter</b>, <br />
         Volume 35, Number 1, Page 39, Photo 5, Winter 2006
         <br />
@@ -60,7 +60,7 @@ const IndexPage = ({ data }) => (
       </div>
       <h4>Miscellaneous photographs published:</h4>
       <br />
-      <div class="pubsCopy">
+      <div className="pubsCopy">
         <Link to="/gp-bookcover" className="pubsIMG">
           <img
             src={bookcover}
@@ -81,7 +81,7 @@ const IndexPage = ({ data }) => (
         </Link>
         <Link to="/gp-rosegarden">View Image</Link>
 
-        <div class="copy">
+        <div className="copy">
           "<b>Chicago and Its Botanic Garden</b>"<br />
           by Cathy J. Maloney, Northwestern University Press, Evanston, 2015.
           <br /> p. 187 includes photograph by Les Kordylewski
@@ -90,7 +90,7 @@ const IndexPage = ({ data }) => (
         </div>
         <br />
       </div>
-      <div class="pubsCopy" style={{ clear: 'both' }}>
+      <div className="pubsCopy" style={{ clear: 'both' }}>
         <Link to="/gp-exodus" className="pubsIMG">
           <img
             src={exodus}
@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => (
         </Link>
         <Link to="/gp-mural">View Image</Link>
 
-        <div class="copy">
+        <div className="copy">
           "
           <b>
             Mexican Exodus - Emigrants, Exiles, and Refugees of the Cristero War
@@ -125,7 +125,7 @@ const IndexPage = ({ data }) => (
         <br />
       </div>
       <h4 style={{ clear: 'both' }}>Research Articles:</h4>
-      <div class="pubsCopy">
+      <div className="pubsCopy">
         <b>
           Quantification of ANP mRNA in primary cultures of adult rat atrial
           myocytes by image processing: in situ hybridization to multiple

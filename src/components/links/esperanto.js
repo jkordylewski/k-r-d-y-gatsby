@@ -34,21 +34,21 @@ const EsperantoLinks = () => (
       rel="noreferrer"
       href="http://www2.polskieradio.pl/eo/dokument.aspx?iid=35638"
     >
-      Radio Interview
+      Radio Interview - Polskie Radio
     </a>
     <a
       target="_blank"
       rel="noreferrer"
       href="http://deon24.com/jerzy-dobrzynski-i-lech-kordylewski-chicagowscy-uczeni-zapraszaja-do-propagowania-jezyka-esperanto/"
     >
-      Radio Interview 2
+      Radio Interview 2 - Deon 24
     </a>
     <a
       target="_blank"
       rel="noreferrer"
       href="http://pola-retradio.org/2014/04/e_elsendo-el-la-18-04-2014/"
     >
-      Radio Interview in Esperanto
+      Radio Interview in Esperanto - POLA RETRADIO
     </a>
     <a
       target="_blank"
@@ -72,21 +72,17 @@ const EsperantoLinks = () => (
       Polish News UNESCO Zamenhof
     </a>
 
-    <br />
-    <b>"Plane Speaking" - Reader Article</b>
-    <br />
     <div className="or">
-      {' '}
-      <a href="/pdfs/PlaneSpeaking.pdf" target="_blank" rel="noreferrer">
-        PDF
-      </a>
-      &nbsp;&nbsp;|&nbsp;&nbsp;
       <a
         href="http://www.chicagoreader.com/chicago/plane-speaking/Content?oid=913091"
         target="_blank"
         rel="noreferrer"
       >
-        on the web
+        "Plane Speaking" - Chicago Reader
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="/pdfs/PlaneSpeaking.pdf" target="_blank" rel="noreferrer">
+        PDF
       </a>
     </div>
 

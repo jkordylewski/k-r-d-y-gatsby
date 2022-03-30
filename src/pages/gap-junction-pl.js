@@ -126,7 +126,7 @@ const IndexPage = ({ data }) => (
         porównawczej metody dopasowywania stron Face E i P poprzez nakładanie na
         siebie{' '}
         <b>
-          <span className="ul">trójwymiarowych obrazów</span>
+          <span className="underline">trójwymiarowych obrazów</span>
         </b>{' '}
         replik w komplementarnych obszarach stron P i E wnętrza błony komórkowej
         w tym samym GJ. Zwykle stosowano jedynie porównywanie „płaskich”

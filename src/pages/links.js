@@ -29,7 +29,10 @@ const IndexPage = ({ data }) => (
       <h3>Gap Junction:</h3>
       <GapLinks />
 
-      <h3>Problemy Bioetyki:</h3>
+      <h3>Forensics:</h3>
+      <ForensykaLinks />
+
+      <h3>Book:</h3>
       <BookLinks />
 
       <h3>Esperanto:</h3>
@@ -37,9 +40,6 @@ const IndexPage = ({ data }) => (
 
       <h3>Sputnik Anniversary:</h3>
       <SputnikLinks />
-
-      <h3>Forensics:</h3>
-      <ForensykaLinks />
 
       <h3>Kazimierz Kordylewski:</h3>
       <KazimierzLinks />

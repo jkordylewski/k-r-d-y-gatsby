@@ -6,6 +6,7 @@ import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
+import ForensykaLinks from '../components/links/forensyka';
 
 const IndexPage = ({ data }) => (
   <Layout name="forensics">
@@ -13,7 +14,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Forensics</h2>
+      <h2>Forensyka (Forensics)</h2>
       <h3>Original Article:</h3>
       <div className="article">
         <h3>Forensyka</h3>
@@ -72,22 +73,9 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
 
-      <h3>Forensics Links:</h3>
-      <div class="linksCopy">
-        <a target="_blank" rel="noreferrer" href="http://www.smsi.org/">
-          State Microscopical Society of Illinois
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.aafs.org/">
-          The American Academy of Forensic Sciences
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.mafs.net/">
-          Midwestern Association of Forensic Scientists
-        </a>
-        <a target="_blank" rel="noreferrer" href="http://www.forensicdna.com/">
-          Forensic DNA
-        </a>
-        <br />
-      </div>
+      <h3>Additional Forensics Resources:</h3>
+      <ForensykaLinks />
+      <br />
       <Kordynet />
     </div>
   </Layout>

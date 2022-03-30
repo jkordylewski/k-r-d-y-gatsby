@@ -194,14 +194,18 @@ html > body #nav li a {
   text-decoration: underline;
 }
 
-.linksCopy .or {
+/* .linksCopy .or {
   margin-bottom: 6px;
   margin-left: 15px;
   margin-top: 4px;
-}
+} */
 
 .linksCopy .or a {
   display: inline;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /*           // Nav Special Trick //
