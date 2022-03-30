@@ -10,17 +10,14 @@ const Menu = () => (
       <li className="bio">
         <Link to="/bio">Bio</Link>
       </li>
-      <li className="pubs">
-        <Link to="/publications">
-          Selected
-          <br /> Publications
-        </Link>
-      </li>
-      <li className="book">
-        <Link to="/book">Book</Link>
+      <li className="gap">
+        <Link to="/gap-junction">Gap Junction</Link>
       </li>
       <li className="forensics">
-        <Link to="/forensics">Forensics</Link>
+        <Link to="/forensics">Forensyka</Link>
+      </li>
+      <li className="book">
+        <Link to="/book">Problemy Bioetyki</Link>
       </li>
       <li className="esperanto">
         <Link to="/esperanto">Esperanto</Link>
@@ -28,8 +25,17 @@ const Menu = () => (
       <li className="sputnik">
         <Link to="/sputnik">Sputnik</Link>
       </li>
+      <li className="kazi">
+        <Link to="/kazimierz-kordylewski">Kazimierz Kordylewski</Link>
+      </li>
       <li className="bana">
         <Link to="/banachiewicz">Banachiewicz</Link>
+      </li>
+      <li className="pubs">
+        <Link to="/publications">
+          Selected
+          <br /> Publications
+        </Link>
       </li>
       <li className="links">
         <Link to="/links">Links</Link>

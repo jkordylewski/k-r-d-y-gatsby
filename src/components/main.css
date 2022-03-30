@@ -216,7 +216,9 @@ html > body #nav li a {
 #forensyka .forensyka a,
 #forensyka .forensics a,
 #sputnik .sputnik a,
-#bana .bana a {
+#bana .bana a,
+#gap .gap a,
+#kazi .kazi a {
   padding: 5px 5px 5px 1em;
   font-weight: bold;
   background-color: #403403;
