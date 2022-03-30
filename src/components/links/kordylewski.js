@@ -2,6 +2,23 @@ import React from 'react';
 
 const KazimierzLinks = () => (
   <div className="linksCopy">
+    <div className="or">
+      <a
+        href="http://www.astronomianova.org/pdf/Kordyl_strona.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Kazimierz Kordylewski jako człowiek i astronom (Ksiazka/Book)
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a
+        href="/pdfs/Kazimierz_Kordylewski_2020.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        PDF
+      </a>
+    </div>
     <a
       target="_blank"
       rel="noreferrer"
@@ -30,7 +47,7 @@ const KazimierzLinks = () => (
     >
       Księżyce Kordylewskiego (Kordylewski Cloud) Wikipedia PL
     </a>
-    <a target="_blank" rel="noreferrer" href=" http://www.kordylewski.pl/">
+    <a target="_blank" rel="noreferrer" href="http://www.kordylewski.pl/">
       Kordylewski.pl
     </a>
     <a
@@ -40,6 +57,20 @@ const KazimierzLinks = () => (
     >
       RadioPolska Interview - Leszek Kordylewski o przygodach przy nadawaniu
       sygnału czasu
+    </a>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.google.com/books/edition/Kazimierz_Kordylewski_jako_człowiek_i_a/ZRtgzgEACAAJ?hl=en"
+    >
+      Kazimierz Kordylewski jako człowiek i astronom (google books)
+    </a>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://books.google.com/books?id=ZRtgzgEACAAJ&source=gbs_navlinks_s"
+    >
+      Kazimierz Kordylewski jako człowiek i astronom (google books)
     </a>
   </div>
 );

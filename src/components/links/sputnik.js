@@ -21,6 +21,13 @@ const SputnikLinks = () => (
     <a target="_blank" rel="noreferrer" href="pdfs/Krakow-Sputnik.pdf">
       Krakow-Sputnik.pdf
     </a>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://www.worldcat.org/title/obserwacja-pierwszego-sputnika/oclc/999257114"
+    >
+      Obserwacja pierwszego sputnika
+    </a>
 
     {/*<a href="http://www.redorbit.com/news/space/1090847/sputnik_raised_the_bar_50_years_ago_adler_planetarium_marks/index.html">Chicago Tribune Article</a> */}
     {/*<a href="http://www.chicagotribune.com/news/local/chi-sputnik_weboct05,0,475046.story">Chicago Tribune Article</a> */}
