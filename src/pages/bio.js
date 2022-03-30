@@ -3,14 +3,14 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import worldMap from '../images/worldmap_122015.gif';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="bio">
-    <SEO title="Biography" />
+    <Seo title="Biography" />
 
     <div id="copy">
       <Header />

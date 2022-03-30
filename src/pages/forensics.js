@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="forensics">
-    <SEO title="Forensics" />
+    <Seo title="Forensics" />
 
     <div id="copy">
       <Header />

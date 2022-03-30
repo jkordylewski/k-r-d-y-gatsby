@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import author from '../images/main.png';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexPage = ({ data }) => (
   <Layout name="home">
-    <SEO title="Home" />
+    <Seo title="Home" />
 
     <div id="copy">
       <div id="card">

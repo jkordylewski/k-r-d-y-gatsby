@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 import worldMap from '../images/worldmap_122015.gif';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexPage = ({ data }) => (
   <Layout name="bio">
-    <SEO title="Życiorys" />
+    <Seo title="Życiorys" />
 
     <div id="copy">
       <Header />

@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout';
 import flag from '../images/espeFlag.gif';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="esperanto">
-    <SEO title="Esperanto" />
+    <Seo title="Esperanto" />
 
     <div id="copy">
       <Header />

@@ -8,14 +8,14 @@ import rosegarden from '../images/publications/13165035.jpg';
 import exodus from '../images/publications/mexican_exodus.jpg';
 import mural from '../images/publications/63059049.jpg';
 
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="pubs">
-    <SEO title="Publications" />
+    <Seo title="Publications" />
 
     <div id="copy">
       <Header />

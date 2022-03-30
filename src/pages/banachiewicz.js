@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout';
 import banachiewicz from '../images/banachiewicz.jpg';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 
 const IndexPage = ({ data }) => (
   <Layout name="bana">
-    <SEO title="Banachiewicz" />
+    <Seo title="Banachiewicz" />
 
     <div id="copy">
       <Header />

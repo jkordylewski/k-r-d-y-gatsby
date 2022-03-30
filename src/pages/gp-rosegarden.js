@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import rosegarden from '../images/publications/13165035.jpg';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexPage = ({ data }) => (
   <Layout name="pubs">
-    <SEO title="Grant Park Rose Garden" />
+    <Seo title="Grant Park Rose Garden" />
 
     <div id="copy" style={{ paddingTop: 10 + 'px' }}>
       <Link className="button" to="/publications">
