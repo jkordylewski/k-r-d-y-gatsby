@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import worldMap from '../images/worldmap_122015.gif';
+import worldMap from '../images/visited-countries-map.png';
+import main from '../images/les kordylewski.jpg';
 import Seo from '../components/seo';
 
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
+import BioLinks from '../components/links/bio';
 
 const IndexPage = ({ data }) => (
   <Layout name="bio">
@@ -14,7 +16,15 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Forensic Scientist</h2>
+      <h2>Cell Biologist, Forensic Scientist, and Microscopist</h2>
+      <div className="bio-image">
+        <img
+          className="headshot"
+          src={main}
+          alt="Les Kordylewski"
+          width="206"
+        />
+      </div>
       <div className="pl-link">
         <Link to="/bio-pl">po Polsku</Link>
       </div>
@@ -83,12 +93,14 @@ const IndexPage = ({ data }) => (
         Language Esperanto. He has visited more than 40 countries worldwide.
       </p>
 
+      <h3>Links:</h3>
+      <BioLinks />
+      <br />
       <img
         src={worldMap}
         style={{ margin: 0 }}
         alt="Map of countries visited"
       />
-      <small>originally created with world66.com</small>
       <br />
       <Kordynet />
     </div>

@@ -4,8 +4,10 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
-import worldMap from '../images/worldmap_122015.gif';
+import worldMap from '../images/visited-countries-map.png';
+import main from '../images/les kordylewski.jpg';
 import Seo from '../components/seo';
+import BioLinks from '../components/links/bio';
 
 const IndexPage = ({ data }) => (
   <Layout name="bio">
@@ -13,7 +15,15 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Forensic Scientist</h2>
+      <h2>Cell Biologist, Forensic Scientist, and Microscopist</h2>
+      <div className="bio-image">
+        <img
+          className="headshot"
+          src={main}
+          alt="Leszek Kordylewski"
+          width="206"
+        />
+      </div>
       <div className="pl-link">
         <Link to="/bio">in English</Link>
       </div>
@@ -64,12 +74,14 @@ const IndexPage = ({ data }) => (
         zakresie mikroskopii opracowujących ekspertyzy forensyczne.
       </p>
 
+      <h3>Na Internecie:</h3>
+      <BioLinks />
+      <br />
       <img
         src={worldMap}
         style={{ margin: 0 }}
         alt="Map of countries visited"
       />
-      <small>originally created with world66.com</small>
       <br />
       <Kordynet />
     </div>
