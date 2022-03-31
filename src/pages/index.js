@@ -73,9 +73,9 @@ const IndexPage = ({ data }) => (
         <Link to="/bio">Read my Bio</Link>
       </section>
 
-      {/* <div className="hp-image">
+      <div className="hp-image">
         <img className="headshot" src={author} alt="Les Kordylewski" />
-      </div> */}
+      </div>
     </div>
   </Layout>
 );
