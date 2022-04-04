@@ -156,12 +156,12 @@ const IndexPage = ({ data }) => (
         in my opinion the pits are located. Despite the extensive literature on
         the connexons themselves, the importance of the space between them is
         underestimated. After all, just there the unknown forces that hold the
-        connections together are located. Nevertheless, the conclusions about
-        the role and structure of the connexons are usually drawn through the
-        use of theoretical models, and not as a result of directly revealing
-        their structure. On the other hand, the factors which keep individual
-        connectors together in a common assembly, are probably located in the
-        spaces between the connections (appearing as pits), and remain
+        connexons together are located. Nevertheless, the conclusions about the
+        role and structure of the connexons are usually drawn through the use of
+        theoretical models, and not as a result of directly revealing their
+        structure. On the other hand, the factors which keep individual
+        connexons together in a common assembly, are probably located in the
+        spaces between the connexons (appearing as pits), and remain
         underestimated.
       </p>
       <div className="copyright">

@@ -56,15 +56,15 @@ const IndexPage = ({ data }) => (
         </b>{' '}
         stanowi oryginalny manuskrypt przedstawiający wyniki moich obserwacji
         trójwymiarowej struktury połączeń szczelinowych (Gap Junctions - GJ)
-        obecnych w błonach komórkowych miocytów serca. Oprocz niego zlaczam
-        również nigdy nie opublikowany obszerny artykul przeglądowy pt.{' '}
+        obecnych w błonach komórkowych miocytów serca. Oprocz niego załączam
+        również nigdy nie opublikowany obszerny artykuł przeglądowy pt.{' '}
         <b>
           <i>
-            „Gap Junction ultrastructure conroversy resolved in 3D. Pits and
+            „Gap Junction ultrastructure controversy resolved in 3D. Pits and
             particles do not match.”
           </i>
         </b>
-        , który szczegolowo opisuje stosowane przeze mnie metody uwidaczniania
+        , który szczegółowo opisuje stosowane przeze mnie metody uwidaczniania
         submikroskopowych struktur w 3D.
       </p>
       <p>
@@ -73,7 +73,7 @@ const IndexPage = ({ data }) => (
         prac badawczych nad ultrastrukturą błon komórkowych miocytów,
         przeprowadzonych w latach 1982-1995 w pracowni Mikroskopii Elektronowej
         Zakładu Medycyny Uniwersytetu Chicagowskiego (Department of Medicine of
-        the University of Chicago). Wyniki tych moich badan sa przedmiotem serii
+        the University of Chicago). Wyniki tych moich badań są przedmiotem serii
         publikacji (<i>American Journal of Physiology</i>, 245 (6), H992-H997,
         1983; <i>Biophysical Journal</i>, 47, 2, 2, 506a, 1985;{' '}
         <i>American Journal of Physiology</i>, 248 (3, Pt. 2), H297-H304, 1985;{' '}
@@ -82,10 +82,10 @@ const IndexPage = ({ data }) => (
         <i>Circulation Research</i>, 73 (1), 135-146, 1993;{' '}
         <i>Journal of Microscopy</i>, 173 (3), 173-81, 1994;{' '}
         <i>Journal of Histochemistry and Cytochemistry</i>, 43 (5), 481-488,
-        1995), i sa szeroko cytowane.{' '}
+        1995), i są szeroko cytowane.{' '}
       </p>
       <p>
-        Dla lepszego uwidocznienia cząstek (Particles) w błonach miocytow i ich
+        Dla lepszego uwidocznienia cząstek (Particles) w błonach miocytów i ich
         ilościowego opracowania konsekwentnie stosowałem obrazowanie
         trójwymiarowe (poprzez wykonywanie setek fotografii przy pomocy
         transmisyjnego mikroskopu elektronowego wyposażonego w uchylny stolik) i
@@ -97,8 +97,8 @@ const IndexPage = ({ data }) => (
       </p>
       <p>
         Niestety manuskrypt ten nigdy nie został opublikowany. Moje obserwacje i
-        wnioski (wykazujące niekomplementarnosc dołeczków (Pits) i cząstek
-        (Particles) koneksonow w komplementarnych replikach rozłupywanych błon
+        wnioski (wykazujące niekomplementarność dołeczków (Pits) i cząstek
+        (Particles) koneksonów w komplementarnych replikach rozłupywanych błon
         komórkowych (przeprowadzone na trójwymiarowych obrazach (stereopairs)
         tych samych obszarów połączeń szczelinowych w replikach Face E i P tego
         samego GJ) były wówczas obiektem miażdżącej krytyki, jako niezgodne z
@@ -116,8 +116,8 @@ const IndexPage = ({ data }) => (
           <b>Biophysical Journal</b>
         </i>
         , 47, 2, 2, 506a, 1985), zostałem odwiedziony od publikowania pełnego
-        tekstu tego kontrowersyjnego artykułu, gdyż zagrożono mi utrata
-        finansowania prowadzonych przeze mnie badan. Wobec tego nie wysłałem
+        tekstu tego kontrowersyjnego artykułu, gdyż zagrożono mi utratą
+        finansowania prowadzonych przeze mnie badań. Wobec tego nie wysłałem
         tego manuskryptu do publikacji, mimo ze byłem i jestem nadal przekonany,
         iż moje wnioski obalające przyjęty powszechnie model są właściwe.{' '}
       </p>
@@ -131,8 +131,8 @@ const IndexPage = ({ data }) => (
         replik w komplementarnych obszarach stron P i E wnętrza błony komórkowej
         w tym samym GJ. Zwykle stosowano jedynie porównywanie „płaskich”
         pojedynczych zdjęć face E i P, na ogol w obszarach rozmaitych - a nie w
-        tych samych GJ. Stad wyciągano tradycyjne wnioski, ze wypukle cząstki
-        (Particles) musza być zawsze w GJ komplementarne z dołeczkami (Pits).
+        tych samych GJ. Stąd wyciągano tradycyjne wnioski, że wypukłe cząstki
+        (Particles) muszą być zawsze w GJ komplementarne z dołeczkami (Pits).
       </p>
       <p>
         Moje obserwacje polegające na „dopasowywaniu” szczegółów
@@ -143,18 +143,18 @@ const IndexPage = ({ data }) => (
         koneksonami. To jawnie zaprzeczało powszechnie przyjętemu poglądowi, ze
         w koneksonie dołeczki (Pits) są komplementarne z cząstkami (Particles),
         jakoby dołeczki (pits) były bliznami w Face E po wyciągniętych z nich
-        cząsteczkach (particles) widocznych po stronie Face P. Wg mnie, po
+        cząsteczkach (particles) widocznych po stronie Face P. Według mnie, po
         stronie E w każdym GJ pomiędzy dołeczkami widoczne są zarysy drugiego
-        setu cząstek. Są one połówkami koneksonow rozerwanych wzdłuż błony na
-        poł w wyniku FF, a w replikach ukazują się jako komplementarne z
-        siostrzanym zestawem polówek koneksonow, widocznych jako cząsteczki po
+        zestawu cząstek. Są one połówkami koneksonów rozerwanych wzdłuż błony na
+        pół w wyniku FF, a w replikach ukazują się jako komplementarne z
+        siostrzanym zestawem połówek koneksonów, widocznych jako cząsteczki po
         stronie Face P. W nałożonych na siebie trójwymiarowych obrazach Face E i
-        P polówki te są wzajemnie zliniowane w swej osi prostopadłej do
+        P połówki te są wzajemnie zliniowane w swej osi prostopadłej do
         płaszczyzny błony.
       </p>
       <p>
         W okresie kiedy dokonałem tej obserwacji, posługiwałem się licznymi
-        dostępnymi mi wówczas prostymi urządzeniami i technikami dla opracowania
+        dostępnymi mi wówczas prostymi urządzeniami i technikami dla analizy
         wysokiej rozdzielczości czarno-białych mikrofotografii – elektronogramów
         (patrz podrozdział Material and Methods). Moje doskonałej jakości
         zdjęcia obecnie zasługiwałyby aby (dla potwierdzenia wykazanej przeze
@@ -163,16 +163,16 @@ const IndexPage = ({ data }) => (
         jestem w stanie kontynuować tego zadania.{' '}
       </p>
       <p>
-        Temat ten uważam za ważny, ponieważ zwraca on uwagę na możliwa role
-        przestrzeni pomiędzy koneksonami, gdzie wg mnie zlokalizowane są
-        dołeczki (pits). Mimo obszernej literatury na temat samych koneksonow,
+        Temat ten uważam za ważny, ponieważ zwraca on uwagę na możliwą rolę
+        przestrzeni pomiędzy koneksonami, gdzie według mnie zlokalizowane są
+        dołeczki (pits). Mimo obszernej literatury na temat samych koneksonów,
         znaczenie przestrzeni pomiędzy koneksonami jest niedoceniane. Tam
-        przecież musza być zlokalizowane nieznane siły, które trzymają koneksony
-        razem. Tymczasem wnioski o roli i strukturze koneksonow wysnuwane są
+        przecież muszą być zlokalizowane nieznane siły, które trzymają koneksony
+        razem. Tymczasem wnioski o roli i strukturze koneksonów wysnuwane są
         zwykle poprzez stosowanie teoretycznych modeli, a nie w wyniku
         bezpośredniego uwidaczniania ich struktury. Natomiast czynniki
         utrzymujące pojedyncze koneksony we wspólnym zespole, które zapewne
-        zlokalizowane sa w przestrzeniach pomiędzy koneksonami gdzie widoczne sa
+        zlokalizowane są w przestrzeniach pomiędzy koneksonami gdzie widoczne sa
         dołeczki (pits), pozostają niedoceniane.
       </p>
       <div className="copyright">
