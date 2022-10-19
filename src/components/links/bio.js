@@ -30,13 +30,13 @@ const BioLinks = () => (
     >
       ResearchGate Profile
     </a>
-    <a
+    {/* <a
       target="_blank"
       rel="noreferrer"
       href="prabook.comdeon24.com/2015/12/23/"
     >
       prabook.comdeon24.com/2015/12/23/
-    </a>
+    </a> */}
   </div>
 );
 

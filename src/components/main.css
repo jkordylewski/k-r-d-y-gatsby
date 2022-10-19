@@ -93,6 +93,23 @@ section {
   /* padding: 15px 15px 15px 25px; */
 }
 
+#gap .article {
+  border: 1px solid #ccc;
+  margin: 20px 0 0;
+  text-align: left;
+  padding: 25px 15px 15px 25px;
+  background-color: #fcfcfc;
+}
+
+#forensics .article {
+  border: 1px solid #ccc;
+  margin: 0px;
+  text-align: left;
+  padding: 15px;
+  padding-left: 25px;
+  background-color: #fcfcfc;
+}
+
 #forensyka .article {
   border: 1px solid #ccc;
   margin: 0px;
@@ -163,15 +180,6 @@ html > body #nav li a {
 #nav li a:hover {
   color: #fff;
   background-color: #9d9a58;
-}
-
-#forensics .article {
-  border: 1px solid #ccc;
-  margin: 0px;
-  text-align: left;
-  padding: 15px;
-  padding-left: 25px;
-  background-color: #fcfcfc;
 }
 
 #linksCopy h3 {
@@ -252,6 +260,10 @@ html > body #nav li a {
   margin-bottom: 15px;
 }
 
+.article small {
+  color: #403403;
+}
+
 .biblio {
   text-indent: 3em;
   margin-bottom: 0.8em;
@@ -296,6 +308,14 @@ html > body #nav li a {
 
 .disclaimer {
   font-size: 11px;
+}
+
+.figures {
+  margin-top: 12px;
+}
+
+.captions {
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 800px) {

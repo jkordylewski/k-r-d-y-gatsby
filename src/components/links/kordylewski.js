@@ -45,10 +45,7 @@ const KazimierzLinks = () => (
       rel="noreferrer"
       href="https://pl.wikipedia.org/wiki/Ksi%C4%99%C5%BCyce_Kordylewskiego"
     >
-      Księżyce Kordylewskiego (Kordylewski Cloud) Wikipedia PL
-    </a>
-    <a target="_blank" rel="noreferrer" href="http://www.kordylewski.pl/">
-      Kordylewski.pl
+      Księżyce Kordylewskiego (Kordylewski Clouds) Wikipedia PL
     </a>
     <a
       target="_blank"
@@ -71,6 +68,34 @@ const KazimierzLinks = () => (
       href="https://books.google.com/books?id=ZRtgzgEACAAJ&source=gbs_navlinks_s"
     >
       Kazimierz Kordylewski jako człowiek i astronom (google books)
+    </a>
+    <div className="or">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://przekroj.pl/spoleczenstwo/czlowiek-z-ksiezycami-aleksandra-kozlowska"
+      >
+        Kwartalnik Przekrój - Człowiek z księżycami (Aleksandra Kozłowska)
+        [2022]
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a
+        href="/pdfs/kazimierz/Człowiek_z_księżycami_Kwartalnik_Przekrój.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        PDF
+      </a>
+    </div>
+    <a target="_blank" rel="noreferrer" href="http://www.kordylewski.pl/">
+      Kordylewski.pl
+    </a>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="http://leksykon.pta.edu.pl/index.php?id=t&kod=204"
+    >
+      Leksykon PTA
     </a>
   </div>
 );

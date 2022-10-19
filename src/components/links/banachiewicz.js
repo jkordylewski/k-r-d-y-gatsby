@@ -41,13 +41,38 @@ const BanachiewiczLinks = () => (
     >
       Leksykon PTA
     </a>
-    <a
+    <div className="or">
+      <a
+        href="https://web.archive.org/web/20210518235335/http://orion.pta.edu.pl/dlaczego-banachiewicz-na-skalce"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Dlaczego Banachiewicz na Skałce? (article by Les Kordylewski)
+      </a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a
+        href="/pdfs/Dlaczego_Banachiewicz_na_Skałce.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        PDF
+      </a>
+      <br />
+      <small>
+        <small>
+          Originally published at
+          http://orion.pta.edu.pl/dlaczego-banachiewicz-na-skalce
+        </small>
+      </small>
+    </div>
+
+    {/* <ax
       target="_blank"
       rel="noreferrer"
       href="http://orion.pta.edu.pl/dlaczego-banachiewicz-na-skalce"
     >
       Dlaczego Banachiewicz na Skałce? (article by Les Kordylewski)
-    </a>
+    </a> */}
     {/*<a target="_blank" rel="noreferrer" href="http://www.pta.edu.pl/orion/art/Banachiewicz/Banachiewicz2.html">An article about the Famous Astronomer</a> */}
   </div>
 );
