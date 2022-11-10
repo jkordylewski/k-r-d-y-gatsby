@@ -1,6 +1,7 @@
 const path = require(`path`);
 
 module.exports = {
+  trailingSlash: `always`,
   siteMetadata: {
     title: `Kordynet`,
     description: `kordynet.com is the personal website of Les Kordylewski. News, articles and personal writings of Les Kordylewski can be found here. Witryna Leszka Kordylewskiego.`,
