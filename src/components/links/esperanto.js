@@ -8,13 +8,6 @@ const EsperantoLinks = () => (
     <a
       target="_blank"
       rel="noreferrer"
-      href="http://www.meetup.com/esperanto-chicago"
-    >
-      Chicago Meetup
-    </a>
-    <a
-      target="_blank"
-      rel="noreferrer"
       href="http://www.esperanto-chicago.org/"
     >
       Esperanto Chicago
@@ -107,6 +100,7 @@ const EsperantoLinks = () => (
         >
           Montreal Esperanto Society
         </a>*/}
+    {/* <a href="http://www.meetup.com/esperanto-chicago">Chicago Meetup</a> */}
     {/* <a href="http://www.esperanto-montreal.org/en/node/365">esperanto-montreal.org</a>*/}
     {/* <a href="http://ao.com.au/esperanto/correlatives.htm">correlatives</a> */}
     {/* <a href="http://www.autodydaktyka.republika.pl/jezykiwschodu/mlaski1.htm">Wywiad / Interview</a> */}
