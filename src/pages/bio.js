@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import worldMap from '../images/visited-countries-map.png';
+import klepsydra from '../images/kordylewski_klepsydra.jpg';
 import main from '../images/les kordylewski.jpg';
 import Seo from '../components/seo';
 
@@ -16,7 +17,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Cell Biologist, Forensic Scientist, and Microscopist</h2>
+      <h2>Cell Biologist, Forensic Scientist, Microscopist, and Esperantist</h2>
       <div className="bio-image">
         <img
           className="headshot"
@@ -32,12 +33,12 @@ const IndexPage = ({ data }) => (
         <h3>Bio:</h3>
       </div>
       <p>
-        Les Kordylewski Ph.D. is a Biologist who works as a Forensic Scientist.
-        He is a former faculty member of the University of Chicago. He received
-        his degrees from Jagiellonian University in Cracow, Poland. Les is the
-        youngest son of a Polish astronomer, Kazimierz Kordylewski (1903-1981),
-        who became famous for his discovery of Dust Moons in the Lagrangean
-        Points of The Earth-Moon system.{' '}
+        Les Kordylewski Ph.D. was a Biologist who worked as a Forensic
+        Scientist. He was a former faculty member of the University of Chicago.
+        He received his degrees from Jagiellonian University in Cracow, Poland.
+        Les was the youngest son of a Polish astronomer, Kazimierz Kordylewski
+        (1903-1981), who became famous for his discovery of Dust Moons in the
+        Lagrangean Points of The Earth-Moon system.{' '}
       </p>
       <p>
         While working at the Department of Medicine of the University of Chicago
@@ -92,6 +93,11 @@ const IndexPage = ({ data }) => (
         German, French, and Latin, and he has mastered the International
         Language Esperanto. He has visited more than 40 countries worldwide.
       </p>
+      <p>
+        Les Kordylewski recently passed away on May 6th 2025 in Krakow, Poland.
+      </p>
+
+      <img src={klepsydra} style={{ margin: 0 }} alt="Klepsydra" />
 
       <h3>Links:</h3>
       <BioLinks />

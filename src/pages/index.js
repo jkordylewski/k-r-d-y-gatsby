@@ -13,22 +13,32 @@ const IndexPage = ({ data }) => (
     <div id="copy">
       <div id="card">
         <h1>Les KORDYLEWSKI Ph.D.</h1>
-        <h2>Cell Biologist - Forensic Scientist - Microscopist</h2>
+        <h2>Forensic Scientist - Microscopist</h2>
+        <h2>Esperantist</h2>
       </div>
 
       <section>
-        <Link to="/gap-junction">
-          <img className="" src={gap} alt="Gap Junction" />
-        </Link>
-        <h3>Gap Junction Controversy:</h3>
-        <Link to="/gap-junction">
-          {' '}
-          More on the Gap Junction Ultrastructure Controversy
-        </Link>
+        <h3>
+          <br />
+          <br />
+        </h3>
       </section>
 
       <section>
-        <h3>Forensyka Article:</h3>
+        <h3>Bio:</h3>
+        <Link to="/bio">Read the Bio</Link> |{' '}
+        <Link to="/bio-pl">Biografia</Link>
+      </section>
+
+      <section>
+        <h3>Book:</h3>
+        <Link to="/book">More about the Problemy Bioetyki book</Link> |{' '}
+        <Link to="/book">wiecej</Link>
+        <br />
+      </section>
+
+      <section>
+        <h3>Forensyka:</h3>
         <Link to="/forensics">
           {' '}
           More on forensyka (Forensics), nauki forensyczne (Forensic Science),
@@ -37,10 +47,11 @@ const IndexPage = ({ data }) => (
       </section>
 
       <section>
-        <h3>Book:</h3>
-        <Link to="/book">More about the Problemy Bioetyki book</Link> |{' '}
-        <Link to="/book">wiecej</Link>
-        <br />
+        <h3>Gap Junction Controversy:</h3>
+        <Link to="/gap-junction">
+          {' '}
+          More on the Gap Junction Ultrastructure Controversy
+        </Link>
       </section>
 
       {/* <section>
@@ -63,14 +74,7 @@ const IndexPage = ({ data }) => (
 
       <section>
         <h3>Sputnik Anniversary:</h3>
-        <Link to="/sputnik">
-          Read more about me and the Sputnik Anniversary
-        </Link>
-      </section>
-
-      <section>
-        <h3>Bio:</h3>
-        <Link to="/bio">Read my Bio</Link>
+        <Link to="/sputnik">Read more about the Sputnik Anniversary</Link>
       </section>
 
       <div className="hp-image">

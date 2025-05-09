@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import Header from '../components/header';
 import Kordynet from '../components/kordynet';
 import worldMap from '../images/visited-countries-map.png';
+import klepsydra from '../images/kordylewski_klepsydra.jpg';
 import main from '../images/les kordylewski.jpg';
 import Seo from '../components/seo';
 import BioLinks from '../components/links/bio';
@@ -15,7 +16,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Cell Biologist, Forensic Scientist, and Microscopist</h2>
+      <h2>Cell Biologist, Forensic Scientist, Microscopist, and Esperantist</h2>
       <div className="bio-image">
         <img
           className="headshot"
@@ -31,8 +32,8 @@ const IndexPage = ({ data }) => (
         <h3>Biografia:</h3>
       </div>
       <p>
-        Leszek Kordylewski obecnie mieszka i pracuje w USA, gdzie przed laty
-        przyjechał na zaproszenie University of Chicago. Jest wychowankiem
+        Leszek Kordylewski mieszkał i pracował w USA, gdzie przed laty
+        przyjechał na zaproszenie University of Chicago. Był wychowankiem
         Uniwersytetu Jagiellońskiego w Krakowie, gdzie uzyskał dyplomy
         magisterski, doktorski oraz habilitację.{' '}
       </p>
@@ -51,7 +52,7 @@ const IndexPage = ({ data }) => (
       </p>
 
       <p>
-        Jest autorem wielu publikacji z dziedziny biologii komórki i
+        Był autorem wielu publikacji z dziedziny biologii komórki i
         ultrastruktury tkanek, które są cytowane w światowych czasopismach
         naukowych i podręcznikach. Zanim zaczęto rozpoznawać popularne dziś
         zagadnienia{' '}
@@ -70,9 +71,13 @@ const IndexPage = ({ data }) => (
       </p>
 
       <p>
-        Dr Leszek Kordylewski jest obecnie jednym z nielicznych ekspertów w
-        zakresie mikroskopii opracowujących ekspertyzy forensyczne.
+        Dr Leszek Kordylewski był jednym z nielicznych ekspertów w zakresie
+        mikroskopii opracowujących ekspertyzy forensyczne.
       </p>
+
+      <p>Przeżywszy lat 77, odszedł od nas dnia 6 maja 2025 roku.</p>
+
+      <img src={klepsydra} style={{ margin: 0 }} alt="Klepsydra" />
 
       <h3>Na Internecie:</h3>
       <BioLinks />

@@ -14,12 +14,20 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <div className="pl-link">
-        <Link to="/gap-junction-pl">po Polsku</Link>
-      </div>
       <div>
-        <h2>Gap Junction Controversy</h2>
+        <h2>
+          Gap Junction Controversy
+          <br /> <br />
+        </h2>
         <img src={main} alt="Gap Junction Illustration" width="206" />
+        <div className="pl-link">
+          <Link to="/gap-image">View Image</Link>
+        </div>
+        <br />
+        <br />
+        <div className="pl-link">
+          <Link to="/gap-junction-pl">po Polsku</Link>
+        </div>
         <h3 style={{ marginBottom: '20px' }}>Original articles:</h3>
         <div className="article">
           <h4>Evidence for noncomplementarity of particles and pits</h4>
