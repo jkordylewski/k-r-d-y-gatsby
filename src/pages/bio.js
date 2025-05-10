@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => (
         Les Kordylewski Ph.D. was a Biologist who worked as a Forensic
         Scientist. He was a former faculty member of the University of Chicago.
         He received his degrees from Jagiellonian University in Cracow, Poland.
-        Les was the youngest son of a Polish astronomer, Kazimierz Kordylewski
+        Les was the youngest son of Polish astronomer, Kazimierz Kordylewski
         (1903-1981), who became famous for his discovery of Dust Moons in the
         Lagrangean Points of The Earth-Moon system.{' '}
       </p>
@@ -88,10 +88,10 @@ const IndexPage = ({ data }) => (
         Biology.
       </p>
       <p>
-        His hobbies include family life, travel, languages, and photography. He
-        is fluent in English and his native Polish, he also speaks Russian, some
-        German, French, and Latin, and he has mastered the International
-        Language Esperanto. He has visited more than 40 countries worldwide.
+        His hobbies included family life, travel, languages, and photography. He
+        was fluent in English and his native Polish, he also spoke Russian, some
+        German, French, and Latin, and he had mastered the International
+        Language Esperanto. He had visited more than 40 countries worldwide.
       </p>
       <p>
         Les Kordylewski recently passed away on May 6th 2025 in Krakow, Poland.

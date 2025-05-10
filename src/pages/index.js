@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
         <h2>Esperantist</h2>
       </div>
 
-      <section>
+      <section className="kordynet-mb">
         <h3>
           <br />
           <br />
