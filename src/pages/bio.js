@@ -61,11 +61,11 @@ const IndexPage = ({ data }) => (
         1986.
       </p>
       <p>
-        Les has nearly 40 years of experience with teaching and research in the
+        Les had nearly 40 years of experience with teaching and research in the
         fields of Light and Electron Microscopy, Histology, Embryology,
         Comparative Anatomy, General Biology, Cell Biology, and Cell
-        Ultrastructure. He taught in Poland and in US, at Jagiellonian, UofC,
-        Winthrop University in SC, and Barat College of DePaul University in
+        Ultrastructure. He taught in Poland and in the US, at Jagiellonian, U of
+        C, Winthrop University in SC, and Barat College of DePaul University in
         Lake Forest IL. Les authored or coauthored more than 100 original papers
         and articles published in the leading US, international, and Polish
         scientific journals, which are cited by various authors worldwide. The
@@ -76,12 +76,12 @@ const IndexPage = ({ data }) => (
       </p>
       <p>
         After many years of service in academia, Dr. Kordylewski began to work
-        for the State of Illinois Forensic Science Services in 1996. His current
-        responsibilities as a Forensic Microscopist consist in examination of
-        trace evidence using Polarized Light Microscopy, Fluorescence,
-        Microspectrophotometry, and Infrared Microscopy. His duties include
+        for the State of Illinois Forensic Science Services in 1996. His
+        responsibilities as a Forensic Microscopist covered examination of trace
+        evidence using Polarized Light Microscopy, Fluorescence,
+        Microspectrophotometry, and Infrared Microscopy. His duties included
         testifying in Court as an expert witness. He issued more than 800
-        reports on his examinations. He is a member of American Academy of
+        reports on his examinations. He was a member of American Academy of
         Forensic Sciences, Midwestern Association of Forensic Scientists, State
         of Illinois Microscopical Society, and American Association for Cell
         Biology.
