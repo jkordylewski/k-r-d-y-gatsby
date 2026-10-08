@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import worldMap from '../images/visited-countries-map.png';
-import klepsydra from '../images/kordylewski_klepsydra.jpg';
 import main from '../images/les kordylewski.jpg';
 import Seo from '../components/seo';
 
@@ -93,11 +92,7 @@ const IndexPage = ({ data }) => (
         German, French, and Latin, and he had mastered the International
         Language Esperanto. He had visited more than 40 countries worldwide.
       </p>
-      <p>
-        Les Kordylewski recently passed away on May 6th 2025 in Krakow, Poland.
-      </p>
-
-      <img src={klepsydra} style={{ margin: 0 }} alt="Klepsydra" />
+      <p>Les Kordylewski passed away on May 6th 2025 in Krakow, Poland.</p>
 
       <h3>Links:</h3>
       <BioLinks />
