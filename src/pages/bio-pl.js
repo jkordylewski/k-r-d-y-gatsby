@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => (
 
     <div id="copy">
       <Header />
-      <h2>Cell Biologist, Forensic Scientist, Microscopist, and Esperantist</h2>
+      <h2>Biolog Komórkowy, Forensyk Sądowy, Mikroskopista i Esperantysta</h2>
       <div className="bio-image">
         <img
           className="headshot"
